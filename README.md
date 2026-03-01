@@ -10,7 +10,7 @@ Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat me
 
 Jika terdeteksi hujan, jemuran akan otomatis berpindah ke tempat yang tidak terkena hujan. Jika tidak ada hujan, jemuran tetap di posisi awal.
 
-**Alur Sistem **
+**Alur Sistem**
 
 Berikut adalah alur kerja sistem berdasarkan diagram yang diberikan:
 
