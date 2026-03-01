@@ -9,6 +9,7 @@ Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat me
 3. Servo Motor untuk memindahkan jemuran secara otomatis
 4. LED Two Color (Merah & Hijau) sebagai indikator status cuaca
 
+
 **Komponen yang Digunakan**
 
 1. ESP32-S3
@@ -18,6 +19,7 @@ Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat me
 5. LED Merah
 6. LED Hijau
 8. Power Supply
+
 
 **Cara Kerja Sistem**
 
