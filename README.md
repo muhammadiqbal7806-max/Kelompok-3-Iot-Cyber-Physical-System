@@ -1,34 +1,26 @@
 # Kelompok-3-Iot-Cyber-Physical-System
-🌦️ Smart Clothesline (Jemuran Pintar Berbasis ESP32-S3)
-📌 Deskripsi Proyek
+**Smart Clothesline (Jemuran Pintar Berbasis ESP32-S3)**
+Deskripsi Proyek
+Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat mendeteksi hujan/gerimis dan suhu lingkungan secara real-time
 
-Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat mendeteksi hujan/gerimis dan suhu lingkungan secara real-time.
-
-Sistem ini menggunakan:
-
-🌧️ Sensor Raindrop untuk mendeteksi air/hujan
-
-🌡️ Sensor Suhu Analog untuk membaca suhu sekitar
-
-⚙️ Servo Motor untuk memindahkan jemuran secara otomatis
-
-💡 LED Two Color (Merah & Hijau) sebagai indikator status cuaca
+1. Sensor Raindrop untuk mendeteksi air/hujan
+2. Sensor Suhu Analog untuk membaca suhu sekitar
+3. Servo Motor untuk memindahkan jemuran secara otomatis
+4. LED Two Color (Merah & Hijau) sebagai indikator status cuaca
 
 Jika terdeteksi hujan, jemuran akan otomatis berpindah ke tempat yang tidak terkena hujan. Jika tidak ada hujan, jemuran tetap di posisi awal.
 
-🔁 Alur Sistem (Sesuai Flowchart)
+**Alur Sistem **
 
 Berikut adalah alur kerja sistem berdasarkan diagram yang diberikan:
 
-Sistem Menyala
+- Sistem Menyala
 
 ESP32-S3 membaca Sensor Raindrop
 
-Sistem mengecek:
-
 Apakah terdeteksi air/hujan?
 
-➤ Jika TIDAK (NO):
+**Jika TIDAK :**
 
 Servo tetap di posisi awal
 
@@ -40,7 +32,7 @@ Data suhu ditampilkan / dimonitoring
 
 Selesai
 
-➤ Jika YA (YES):
+**Jika YA :**
 
 Servo bergerak (jemuran masuk/berpindah)
 
@@ -52,35 +44,26 @@ Data suhu ditampilkan / dimonitoring
 
 Selesai
 
-🧩 Komponen yang Digunakan
+**Komponen yang Digunakan**
 
-ESP32-S3
+1. ESP32-S3
+2. Sensor Raindrop
+3. Sensor Suhu Analog 
+4. Servo 
+5. LED Merah
+6. LED Hijau
+8. Power Supply
 
-Sensor Raindrop
+**Cara Kerja Sistem**
 
-Sensor Suhu Analog (misalnya LM35 / NTC)
-
-Servo Motor
-
-LED Merah
-
-LED Hijau
-
-Resistor pendukung
-
-Power Supply
-
-⚙️ Cara Kerja Sistem
-🌧️ 1. Deteksi Hujan (Sensor Raindrop)
-
+**1. Deteksi Hujan (Sensor Raindrop)**
 Sensor mendeteksi adanya air.
 
 Jika nilai melebihi threshold → dianggap hujan.
 
 Sistem mengaktifkan servo untuk memindahkan jemuran.
 
-🌡️ 2. Monitoring Suhu (Analog Temperature Sensor)
-
+**2. Monitoring Suhu (Analog Temperature Sensor)**
 Sensor membaca suhu sekitar.
 
 Data dikonversi dari analog ke suhu (°C).
