@@ -40,9 +40,9 @@ Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat me
 
   
 
-**Alur Sistem**
+**Alur Sistem :**
 
-Alur kerja sistem berdasarkan diagram yang diberikan:
+
 
 - Sistem Menyala
 
