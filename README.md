@@ -29,7 +29,7 @@ Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat me
 
 - Sistem mengaktifkan servo untuk memindahkan jemuran.
 
-**2. Monitoring Suhu (Analog Temperature Sensor)**
+**2. Monitoring Suhu (NTC Sensor)**
 - Sensor membaca suhu sekitar.
 
 - Data dikonversi dari analog ke suhu (°C).
