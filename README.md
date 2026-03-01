@@ -9,6 +9,32 @@ Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat me
 3. Servo Motor untuk memindahkan jemuran secara otomatis
 4. LED Two Color (Merah & Hijau) sebagai indikator status cuaca
 
+**Komponen yang Digunakan**
+
+1. ESP32-S3
+2. Sensor Raindrop
+3. Sensor Suhu Analog 
+4. Servo 
+5. LED Merah
+6. LED Hijau
+8. Power Supply
+
+**Cara Kerja Sistem**
+
+**1. Deteksi Hujan (Sensor Raindrop)**
+Sensor mendeteksi adanya air.
+
+Jika nilai melebihi threshold → dianggap hujan.
+
+Sistem mengaktifkan servo untuk memindahkan jemuran.
+
+**2. Monitoring Suhu (Analog Temperature Sensor)**
+Sensor membaca suhu sekitar.
+
+Data dikonversi dari analog ke suhu (°C).
+
+Ditampilkan pada Serial Monitor / Display (jika digunakan).
+
 Jika terdeteksi hujan, jemuran akan otomatis berpindah ke tempat yang tidak terkena hujan. Jika tidak ada hujan, jemuran tetap di posisi awal.
 
 **Alur Sistem**
@@ -45,28 +71,3 @@ Data suhu ditampilkan / dimonitoring
 
 Selesai
 
-**Komponen yang Digunakan**
-
-1. ESP32-S3
-2. Sensor Raindrop
-3. Sensor Suhu Analog 
-4. Servo 
-5. LED Merah
-6. LED Hijau
-8. Power Supply
-
-**Cara Kerja Sistem**
-
-**1. Deteksi Hujan (Sensor Raindrop)**
-Sensor mendeteksi adanya air.
-
-Jika nilai melebihi threshold → dianggap hujan.
-
-Sistem mengaktifkan servo untuk memindahkan jemuran.
-
-**2. Monitoring Suhu (Analog Temperature Sensor)**
-Sensor membaca suhu sekitar.
-
-Data dikonversi dari analog ke suhu (°C).
-
-Ditampilkan pada Serial Monitor / Display (jika digunakan).
