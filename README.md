@@ -17,9 +17,9 @@ Berikut adalah alur kerja sistem berdasarkan diagram yang diberikan:
 
 - Sistem Menyala
 
-ESP32-S3 membaca Sensor Raindrop
+- ESP32-S3 membaca Sensor Raindrop
 
-Apakah terdeteksi air/hujan?
+- Apakah terdeteksi air/hujan?
 
 **Jika TIDAK :**
 
