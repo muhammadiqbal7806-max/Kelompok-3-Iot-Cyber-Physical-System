@@ -2,7 +2,7 @@
 
 
 Deskripsi Proyek
-Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat mendeteksi hujan/gerimis dan suhu lingkungan secara real-time
+Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat mendeteksi hujan/gerimis dan suhu lingkungan secara real-time.
 
 1. Sensor Raindrop untuk mendeteksi air/hujan
 2. Sensor Suhu Analog untuk membaca suhu sekitar
@@ -14,10 +14,9 @@ Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat me
 
 1. ESP32-S3
 2. Sensor Raindrop
-3. Sensor Suhu Analog 
+3. Sensor NTC
 4. Servo 
-5. LED Merah
-6. LED Hijau
+5. RGB LED
 8. Power Supply
 
 
