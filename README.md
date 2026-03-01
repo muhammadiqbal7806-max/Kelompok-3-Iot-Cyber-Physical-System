@@ -1,5 +1,5 @@
-# Kelompok-3-Iot-Cyber-Physical-System
-**Smart Clothesline (Jemuran Pintar Berbasis ESP32-S3)**
+# **Smart Clothesline (Jemuran Pintar Berbasis ESP32-S3)**
+
 
 Deskripsi Proyek
 Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat mendeteksi hujan/gerimis dan suhu lingkungan secara real-time
