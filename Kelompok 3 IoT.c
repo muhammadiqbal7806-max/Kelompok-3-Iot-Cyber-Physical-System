@@ -8,8 +8,8 @@
 #include <math.h>
 
 // ===== WIFI =====
-char ssid[] = "NAMA_WIFI";
-char pass[] = "PASSWORD_WIFI";
+char ssid[] = "Le Minerale";
+char pass[] = "gosong12";
 
 // ===== PIN =====
 const int rainPin  = 5;
@@ -33,6 +33,12 @@ bool rainBefore = false;
 // ===== MODE MANUAL (V3) =====
 BLYNK_WRITE(V3) {
   manualMode = param.asInt();
+
+  if (manualMode == 1) {
+    jemuran.write(90); 
+  } else {
+    jemuran.write(0);
+  }
 }
 
 void sendData() {
