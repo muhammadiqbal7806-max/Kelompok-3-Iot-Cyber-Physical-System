@@ -25,7 +25,7 @@ Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat me
 **1. Deteksi Hujan (Sensor Raindrop)**
 - Sensor mendeteksi adanya air.
 
-- Jika nilai melebihi threshold maka dianggap hujan.
+- Jika nilai melebihi maka dianggap hujan.
 
 - Sistem mengaktifkan servo untuk memindahkan jemuran.
 
@@ -36,13 +36,8 @@ Smart Clothesline adalah sistem jemuran otomatis berbasis ESP32-S3 yang dapat me
 
 - Ditampilkan pada Serial Monitor / Display (jika digunakan).
 
-- Jika terdeteksi hujan, jemuran akan otomatis berpindah ke tempat yang tidak terkena hujan. Jika tidak ada hujan, jemuran tetap di posisi awal.
-
-  
 
 **Alur Sistem :**
-
-
 
 - Sistem Menyala
 
